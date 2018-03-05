@@ -1,0 +1,130 @@
+/* Table of Contents
+––––––––––––––––––––––––––––––––––––––––––––––
+- General Content
+- Typography
+- Header & Navigation
+- Images & Media
+- Footer
+- Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* General Content
+–––––––––––––––––––––––––––––––––––––––––––––– */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 7rem;
+
+ }
+ h3 {
+   text-align: center;
+  }
+a {
+  color: #68B1BD;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  border:3px;
+  text-shadow: .5px .5px .5px #68B1BD;
+  text-decoration:none;
+}
+
+a:hover {
+  color: #68B1BD;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  border:3px;
+  text-shadow: .5px .5px .5px #68B1BD;
+  text-decoration:none;
+}
+
+
+body {
+  background-image: url("../images/shape.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.plate {
+  color: white;
+  margin-top: 10px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background: rgba(0, 0, 0, 0.7);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#fade1 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+
+/* Header & Navigation
+–––––––––––––––––––––––––––––––––––––––––––––– */
+.navbar {
+position: fixed;
+display: block;
+text-align: center;
+width: 100%;
+top: 0;
+left: 0;
+height: 4.5rem;
+background: #282C34;
+opacity: .90%;
+z-index: 99;
+border-bottom: 2px solid #68B1BD; }
+.navbar .navbar-list {
+list-style: none; }
+.navbar .navbar-list .navbar-item {
+display: inline;
+}
+.navbar .navbar-list .navbar-item .navbar-link {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  margin-right: 35px;
+  transition: color 0.2s ease;
+  line-height: 4.5rem; }
+.navbar .navbar-list .navbar-item .navbar-link:hover {
+  color: #68B1BD; }
+
+/* General Content
+–––––––––––––––––––––––––––––––––––––––––––––– */
+img{max-width: 100%;}
+
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––– */
+/* Larger than mobile */
+@media (max-width: 479px) {
+	.logo a{font-size: 2em;}
+	.main{padding-top:15%;}
+	.portfolio img{margin-bottom: 10%;}
+	img.avatar{margin-top: 15%;}
+	h2.bio{font-size: 2.5em;}
+	p.bio{font-size: 1.25em;color: #3f7f7c;}
+	ul.social li a{font-size: .75em;}
+}
+
+header.main_nav{
+padding: 1% 0;
+display: block;
+}

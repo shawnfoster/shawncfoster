@@ -1,2 +1,2 @@
-# shawncfoster
-UX Portfolio
+# My-Portfolio
+Building my portfolio
