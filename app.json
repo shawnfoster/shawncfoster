@@ -1,0 +1,17 @@
+{
+  "name": "shawncfoster",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku buildpacks:set heroku/PHP"
+    }
+  ]
+}
